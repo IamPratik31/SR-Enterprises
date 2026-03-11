@@ -1,12 +1,8 @@
-import { motion } from 'motion/react'
-import { Menu, Phone, X } from 'lucide-react'
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
+import { Menu, X } from 'lucide-react'
 
-const PHONE = '9665352211'
-
-// Logo image (place file at: public/images/logo.png)
-const LOGO_IMAGE = 'public/image/logo.jfif'
+const LOGO_IMAGE = '/image/logo.jfif'
 
 type NavItem = { label: string; to: string }
 
@@ -14,15 +10,12 @@ export function Navbar() {
   const [open, setOpen] = useState(false)
   const location = useLocation()
 
-  const navItems = useMemo<NavItem[]>(
-    () => [
-      { label: 'Home', to: '/' },
-      { label: 'About', to: '/about' },
-      { label: 'Projects', to: '/projects' },
-      { label: 'Contact', to: '/contact' },
-    ],
-    [],
-  )
+  const navItems: NavItem[] = [
+    { label: 'Home', to: '/' },
+    { label: 'About', to: '/about' },
+    { label: 'Projects', to: '/projects' },
+    { label: 'Contact', to: '/contact' },
+  ]
 
   useEffect(() => {
     setOpen(false)
@@ -44,6 +37,7 @@ export function Navbar() {
               className="h-full w-full object-contain"
             />
           </span>
+
           <div className="leading-tight">
             <div className="font-heading text-[15px] font-bold tracking-wide text-[var(--sr-navy)] md:text-[16px]">
               S.R ENTERPRISE'S
@@ -110,4 +104,3 @@ export function Navbar() {
     </header>
   )
 }
-
