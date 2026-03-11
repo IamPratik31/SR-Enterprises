@@ -16,7 +16,7 @@ export function FounderSection() {
           <div className="rounded-2xl bg-white p-8 text-center shadow-lg shadow-black/[0.12] ring-1 ring-black/5">
             <div className="mx-auto mb-5 h-32 w-32 overflow-hidden rounded-full border-2 border-[var(--sr-accent)] bg-[var(--sr-bg)]">
               <img
-                src={"public/image/pic of founder.png"}
+                src={"/image/founder.png"}
                 alt="Founder portrait"
                 className="h-full w-full object-cover"
                 loading="lazy"
