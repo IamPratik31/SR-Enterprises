@@ -36,7 +36,7 @@ return ( <section id="home" className="relative min-h-[100vh] overflow-hidden">
         >
 
           <img
-            src="public/image/logo.jfif"
+            src="/image/logo.jfif"
             alt="SR Enterprises Logo"
             className="h-20 w-20 object-contain"
           />
