@@ -1,8 +1,6 @@
 import { SectionHeading } from '../ui/SectionHeading'
 
-// Founder image (place file at: public/images/founder.jpg)
-  const FOUNDER_IMAGE = "/image/founder.png"
-
+ 
 export function FounderSection() {
   return (
     <section id="leadership" className="bg-[var(--sr-bg)]">
