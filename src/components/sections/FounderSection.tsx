@@ -2,7 +2,7 @@ import { SectionHeading } from '../ui/SectionHeading'
 
 // Founder image (place file at: public/images/founder.jpg)
  <img
-  src={"public/image/pic of founder.png"}
+  src={"/image/pic of founder.png"}
   alt="Founder"
   className="rounded-xl object-cover"
 />

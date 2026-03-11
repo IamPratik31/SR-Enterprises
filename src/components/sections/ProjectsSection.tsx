@@ -22,8 +22,8 @@ const projects = [
     description:
       "Balaji Villa is designed with modern architecture, large windows for natural light, and elegant exterior finishing.",
     images: [
-      "public/image/project2.0.jfif",
-      "public/image/project2.1.jfif",
+      "/image/project2.0.jfif",
+      "/image/project2.1.jfif",
     
     ],
   },
@@ -33,8 +33,8 @@ const projects = [
     description:
       "A stylish residential house designed with modern elevation and strong structural engineering suitable for urban living.",
     images: [
-      "public/image/project3.1.jfif",
-      "public/image/project3.2.jfif",
+      "/image/project3.1.jfif",
+      "/image/project3.2.jfif",
     
     ],
   },
@@ -45,8 +45,8 @@ const projects = [
     description:
       "A beautiful family home with elegant façade design, spacious interior planning, and durable construction quality.",
     images: [
-      "public/image/project4.0.jfif",
-      "public/image/project4.1.jfif",
+      "/image/project4.0.jfif",
+      "/image/project4.1.jfif",
        
     ],
   },
@@ -58,8 +58,8 @@ const projects = [
         
     
       images: [
-      "public/image/project5.0.jfif",
-      "public/image/project5.1.jfif",
+      "/image/project5.0.jfif",
+      "/image/project5.1.jfif",
     ],
   },
   {
@@ -68,9 +68,9 @@ const projects = [
     description:
       " Parag Satpute Villa is a beautiful bungalow project built with strong structure and modern design. The project offers a spacious layout and quality construction",
     images: [
-      "public/image/project6.0.jfif",
-      "public/image/project6.1.jfif",
-      "public/image/project6.2.jfif",
+      "/image/project6.0.jfif",
+      "/image/project6.1.jfif",
+      "/image/project6.2.jfif",
     ],
   },
 ]
