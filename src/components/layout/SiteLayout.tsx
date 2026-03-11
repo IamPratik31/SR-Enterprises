@@ -1,5 +1,4 @@
 import { Outlet } from 'react-router-dom'
-import { FloatingActions } from '../FloatingActions'
 import { ScrollToHash } from '../ScrollToHash'
 import { Footer } from './Footer'
 import { Navbar } from './Navbar'
@@ -13,7 +12,7 @@ export function SiteLayout() {
         <Outlet />
       </main>
       <Footer />
-      <FloatingActions />
+   
     </div>
   )
 }

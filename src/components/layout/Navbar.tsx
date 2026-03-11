@@ -6,7 +6,7 @@ import { Link, NavLink, useLocation } from 'react-router-dom'
 const PHONE = '9665352211'
 
 // Logo image (place file at: public/images/logo.png)
-const LOGO_IMAGE = '/images/logo.png'
+const LOGO_IMAGE = 'public/image/logo.jfif'
 
 type NavItem = { label: string; to: string }
 
