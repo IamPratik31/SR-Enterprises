@@ -1,11 +1,11 @@
- import { Mail, MapPin, Phone, Send } from "lucide-react"
+import { Mail, MapPin, Phone, Send } from "lucide-react"
 import { motion } from "framer-motion"
 import { useState } from "react"
 import { SectionHeading } from "../ui/SectionHeading"
 import { Reveal } from "../ui/Reveal"
 
 const PHONE_NUMBER = "9665352211"
-const EMAIL = "[sunilrathod1087@gmail.com](mailto:sunilrathod1087@gmail.com)"
+const EMAIL = "sunilrathod1087@gmail.com"
 const ADDRESS = "DURVANKUR SRISHTI, Narhe, Pune, Maharashtra 411041"
 
 export function ContactSection() {
@@ -120,6 +120,7 @@ return ( <section id="contact" className="bg-white">
 
             <div className="grid gap-4">
 
+              {/* Name */}
               <div>
                 <label className="font-semibold">
                   Name *
@@ -134,6 +135,7 @@ return ( <section id="contact" className="bg-white">
                 />
               </div>
 
+              {/* Phone */}
               <div>
                 <label className="font-semibold">
                   Phone Number *
@@ -148,6 +150,7 @@ return ( <section id="contact" className="bg-white">
                 />
               </div>
 
+              {/* Message */}
               <div>
                 <label className="font-semibold">
                   Message *
@@ -163,6 +166,7 @@ return ( <section id="contact" className="bg-white">
                 />
               </div>
 
+              {/* Button */}
               <motion.button
                 type="submit"
                 className="mt-2 flex items-center justify-center gap-2 rounded-xl bg-yellow-500 px-6 py-3 font-semibold text-white"

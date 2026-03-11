@@ -7,13 +7,13 @@ const services = [
   {
     title: 'Residential Construction',
     description:
-      'Custom homes, villas, and residential buildings that combine durability, functionality and modern aesthetics.',
-    Icon: Home,
+     "Custom homes, villas and residential buildings that combine durability, functionality and aesthetics.",
+     Icon: Home,
   },
   {
     title: 'Commercial Construction',
     description:
-      'Office spaces, retail outlets, and industrial facilities built to be efficient, robust, and business-ready.',
+      'Office spaces, retail outlets, and industrial facilities built to be  efficient, robust, and business-ready. ',
     Icon: Building2,
   },
   {
@@ -25,7 +25,7 @@ const services = [
   {
     title: 'Renovation & Remodeling',
     description:
-      'Upgrading and transforming existing spaces into modern,functional and visually appealing environments.',
+      "Custom homes, villas and residential buildings that combine durability, functionality and aesthetics.",
     Icon: Wrench,
   },
 ] as const
