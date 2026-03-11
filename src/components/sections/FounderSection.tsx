@@ -1,11 +1,7 @@
 import { SectionHeading } from '../ui/SectionHeading'
 
 // Founder image (place file at: public/images/founder.jpg)
- <img
-  src={"/image/pic of founder.png"}
-  alt="Founder"
-  className="rounded-xl object-cover"
-/>
+  const FOUNDER_IMAGE = "/image/founder.jpg"
 
 export function FounderSection() {
   return (
