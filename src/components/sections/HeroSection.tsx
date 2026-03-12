@@ -6,9 +6,9 @@ const PHONE = "9665352211"
 const HERO_IMAGE = "/image/Picture1.png"
 
 export function HeroSection() {
-return ( <section id="home" className="relative min-h-[100vh] overflow-hidden">
+return (
+<section id="home" className="relative min-h-[100vh] overflow-hidden">
 
-```
   {/* Background */}
   <div className="absolute inset-0">
     <img
@@ -29,7 +29,7 @@ return ( <section id="home" className="relative min-h-[100vh] overflow-hidden">
 
         {/* Logo + Company Name */}
         <motion.div
-          className="flex items-center justify-center gap-4 md:justify-start"
+          className="flex flex-col items-center md:flex-row md:items-center md:gap-4 md:justify-start"
           initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
@@ -38,10 +38,10 @@ return ( <section id="home" className="relative min-h-[100vh] overflow-hidden">
           <img
             src="/image/logo.jfif"
             alt="SR Enterprises Logo"
-            className="h-20 w-20 object-contain"
+            className="h-20 w-20 object-contain mb-3 md:mb-0"
           />
 
-          <h1 className="font-heading text-[32px] font-bold leading-tight tracking-wide text-white md:text-[52px] lg:text-[56px]">
+          <h1 className="font-heading text-[28px] font-bold tracking-wide text-white md:text-[52px] lg:text-[56px]">
             S.R ENTERPRISE&apos;S
           </h1>
 
@@ -49,7 +49,7 @@ return ( <section id="home" className="relative min-h-[100vh] overflow-hidden">
 
         {/* Tagline */}
         <motion.p
-          className="mt-3 text-[16px] text-white/85 md:text-[18px] md:pl-[96px]"
+          className="mt-3 text-[16px] text-white/85 md:text-[18px]"
           initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 0.1 }}
@@ -60,7 +60,7 @@ return ( <section id="home" className="relative min-h-[100vh] overflow-hidden">
         {/* Phone */}
         <motion.a
           href={`tel:${PHONE}`}
-          className="mt-6 inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-white backdrop-blur hover:bg-white/20 md:ml-[96px]"
+          className="mt-6 inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-white backdrop-blur hover:bg-white/20 md:justify-start"
           initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 0.2 }}
@@ -76,7 +76,7 @@ return ( <section id="home" className="relative min-h-[100vh] overflow-hidden">
 
         {/* Buttons */}
         <motion.div
-          className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center md:justify-start md:ml-[96px]"
+          className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center md:justify-start"
           initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 0.3 }}
@@ -120,7 +120,6 @@ return ( <section id="home" className="relative min-h-[100vh] overflow-hidden">
   </div>
 
 </section>
-
 
 )
 }
